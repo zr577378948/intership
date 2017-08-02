@@ -1,0 +1,25 @@
+package com.ouya.zr;
+/**
+ * final:最终，也称为完结器
+ * 
+ * 可以定义类、属性、方法
+ * 1.使用final时声明类不能有子类。
+ * 2.父类方法有final，子类不能重写。
+ * 3.当用final进行定义属性，属性必须初始化。
+ */
+public class FinalTest {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+final class A{
+	
+	
+}
+
+/*class B extends A{ //final定义的类不能被继承
+	
+}*/

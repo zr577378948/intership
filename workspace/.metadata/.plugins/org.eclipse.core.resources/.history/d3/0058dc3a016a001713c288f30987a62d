@@ -1,0 +1,17 @@
+package com.chinasofti;
+
+public class HelloWorld {
+
+//一个类中 ，只有一个主类。和一个主方法（main方法）
+	/*
+	 * 多行注释
+	 * */
+	/*一个源文件只能有一个声明为public的类。同时要求为与文件名相同？*/
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("中软实训第一天");
+	}
+
+}

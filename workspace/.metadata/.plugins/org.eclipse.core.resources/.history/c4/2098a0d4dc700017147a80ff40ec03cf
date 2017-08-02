@@ -1,0 +1,13 @@
+package com.ouya.zr;
+
+public class OverLoad {
+
+	
+	
+}
+class OverLoadTest{
+	//方法的重载
+	public int getSum(int i,int j){
+		
+	}
+}

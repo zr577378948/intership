@@ -1,0 +1,10 @@
+package com.ouya.zr;
+
+public class shuzu {
+
+	public static void main(String[] args) {
+
+		String []names = ["zahngrui","fengcehngcheng","yanbin"];
+	}
+
+}

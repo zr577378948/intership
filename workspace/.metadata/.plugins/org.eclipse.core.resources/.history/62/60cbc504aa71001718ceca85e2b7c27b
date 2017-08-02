@@ -1,0 +1,24 @@
+package com.ouya.zr;
+
+public class gouzao {
+	
+	public static void main(String[] args) {
+		Person p = new Person("dsf");
+		p.info();
+	}
+}
+class Person{
+	String name ;
+	int age ;
+	
+	public Person(){
+		System.out.println("kndfk"); ;
+	}
+	public Person(String a){
+		name = a ;
+	}
+	
+	public void info(){
+		System.out.println("name:"+ name +",age:"+age);
+	}
+}

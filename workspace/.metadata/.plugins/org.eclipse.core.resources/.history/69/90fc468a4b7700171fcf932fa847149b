@@ -1,0 +1,13 @@
+package com.ouya.zr.file;
+/**
+ * java.io.File类
+ * 1.凡是与输入输出相关的类、接口等定义在java.io包下。
+ * 2.File是一个类，可以有构造器创建其对象。
+ * @author Administrator
+ *
+ */
+public class TestFile {
+
+	@Test
+	
+}

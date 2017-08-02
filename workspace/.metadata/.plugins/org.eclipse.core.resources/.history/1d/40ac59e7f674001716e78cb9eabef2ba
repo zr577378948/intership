@@ -1,0 +1,8 @@
+package com.ouya.zr;
+
+public class TestEquals1 {
+
+	public static void main(String[] args) {
+		
+	}
+}

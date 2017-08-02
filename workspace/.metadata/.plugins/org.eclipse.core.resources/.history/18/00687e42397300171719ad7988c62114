@@ -1,0 +1,14 @@
+package com.ouya.zr;
+/**
+ * 定义：某一种实物存在多种形态
+ * @author Administrator
+ *
+ */
+public class Demo {
+
+}
+
+abstract class Animal{
+	abstract void eat();
+}
+

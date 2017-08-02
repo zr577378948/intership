@@ -1,0 +1,14 @@
+package com.ouya.zr.Thread;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+public class TestDate {
+
+	public static void main(String[] args) {
+		Calendar cl = new GregorianCalendar();
+		System.out.println("Äê£º"+cl.get(Calendar.YEAR));
+		System.out.println("ÔÂ£º"+cl.get(Calendar.MONTH)+1);
+		System.out.println("ÈÕ£º"+cl.get(Calendar.DAY_OF_MONTH));
+	}
+}

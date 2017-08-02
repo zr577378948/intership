@@ -1,0 +1,13 @@
+package com.ouya.zr.io;
+
+/**
+ * 判断一个给定的目录是否是目录
+ * @author Administrator
+ *
+ */
+public class TestIO2 {
+
+	public static void main(String[] args) {
+		
+	}
+}

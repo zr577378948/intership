@@ -1,0 +1,49 @@
+package com.ouya.zr;
+
+public class xx {
+   
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        gg t=new gg();
+        t.setBase(6.0);
+        t.setHeight(3.0);
+     
+       // tirAngle.angleArea();
+      //  tirAngle.printArea();
+        System.out.println(t.angleArea());
+      
+        }
+	
+}
+
+class gg{
+	
+	private double base;
+	private double height;
+	
+	public double getBase() {
+		return base;
+	}
+			public void setBase(double base){
+				this.base=base;
+			}
+			
+			public double getHeight(){
+				return height;
+			}
+			
+			public void setHeight(double height){
+				this.height=height;
+			}
+			
+			
+			public double angleArea(){
+				return (0.5)*(this.base * this.height);
+			}
+			
+			/*public void printArea(){
+				System.out.println("这个三角形的面积为"+angleArea());
+			}*/
+} 

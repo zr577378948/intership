@@ -1,0 +1,13 @@
+package com.ouya.zr.Thread;
+/**
+ * throws
+ * 在定义一个方法时，可以使用throws来声明，
+ * 使用throws声明方法表示此方法不处理，而是交给方法的调用处理
+ * 
+ * public 返回值类型 方法名（参数列表） throws 异常类{}
+ * @author Administrator
+ *
+ */
+public class TestThrows {
+
+}

@@ -1,0 +1,8 @@
+package com.ouya.zr;
+
+public class TestSingleton {
+
+}
+class SingLeton{
+	
+}

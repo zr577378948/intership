@@ -1,0 +1,18 @@
+
+public class H {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("我的海星你醒了，+/n"
+		+ "还记得早晨吗，/n"
+		+ "昨夜你曾经说，/n"
+		+ "愿夜幕永不开启，/n"
+		+ "你的香腮边轻轻滑落的，/n"
+		+ "是你的泪还是我的泪，/n"
+		+ "初吻吻别的那个季节不是已经哭过了吗，/n"
+		+ "我的指尖还记忆着你慌乱的心跳，/n"
+		+ "温润的体香里，/n"
+		+ "那一缕长发飘飘！");
+	}
+
+}

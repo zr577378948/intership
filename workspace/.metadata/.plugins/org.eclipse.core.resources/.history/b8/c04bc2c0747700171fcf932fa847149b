@@ -1,0 +1,19 @@
+package com.ouya.zr.io;
+
+import java.io.File;
+
+public class ShowDir {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void list(File al){
+		if(al.isDirectory()){
+			File list[] = al.listFiles();
+			if(list!=null){
+				
+			}
+		}
+	}
+}

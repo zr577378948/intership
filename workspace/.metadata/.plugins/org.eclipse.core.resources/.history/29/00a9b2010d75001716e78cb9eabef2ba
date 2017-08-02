@@ -1,0 +1,23 @@
+package com.ouya.zr;
+
+public class Circle extends GeometricObject{
+
+	private double radius;
+	public Circle(){
+		this.r
+	}
+	public Circle(String color, double weight) {
+		super(color, weight);
+		// TODO Auto-generated constructor stub
+	}
+	public double getRadius() {
+		return radius;
+	}
+	public void setRadius(double radius) {
+		this.radius = radius;
+	}
+
+
+	
+	
+}

@@ -1,0 +1,48 @@
+package com.ouya.zr;
+
+public class panduan {
+
+	public static void main(String[] args) {
+
+		int i = 10;
+		boolean a = true;
+		boolean b = false;
+		
+		if(b& (i++>0)){
+			System.out.println("jakjk");
+		}else{
+			System.out.println("47");
+		}
+		
+		System.out.println(i);
+		
+		i = 10;
+		if(a&& (i++>0)){
+			System.out.println("jakjk");
+		}else{
+			System.out.println("47");
+		}
+		
+		System.out.println(i);
+		
+		
+		if(b| (i++>0)){
+			System.out.println("jakjk");
+		}else{
+			System.out.println("47");
+		}
+		
+		System.out.println(i);
+		
+		i = 10;
+		if(b|| (i++>0)){
+			System.out.println("jakjk");
+		}else{
+			System.out.println("47");
+		}
+		
+		System.out.println(i);
+		
+	}
+
+}

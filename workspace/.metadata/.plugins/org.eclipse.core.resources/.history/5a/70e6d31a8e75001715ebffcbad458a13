@@ -1,0 +1,10 @@
+package com.ouya.zr.bank;
+
+public class User {
+
+	private int id;
+	private int password;
+	private double money;
+
+	
+}

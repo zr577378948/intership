@@ -1,0 +1,11 @@
+package com.ouya.zr;
+
+public class TestSingleton {
+
+}
+class Singleton{
+//	1.私有化构造器
+	private Singleton(){
+		
+	}
+}

@@ -1,0 +1,16 @@
+package com.ouya.zr;
+
+public class TestTemplate {
+
+}
+
+abstract class Template{
+	public abstract void code();
+	
+	public void spendTime(){
+		long start = System.currentTimeMillis();
+		code();
+		long end = System.currentTimeMillis();
+		System.out.println("花费的时间："+(end-start));
+	}
+}

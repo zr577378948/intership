@@ -1,0 +1,13 @@
+package com.ouya.zr;
+
+public class TestEquals {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 10;
+		System.out.println(a==b);
+		char c = 10;
+		System.out.println(a==c);
+		float f = 10.0f;
+		System.out.println(a==f);
+	}
+}

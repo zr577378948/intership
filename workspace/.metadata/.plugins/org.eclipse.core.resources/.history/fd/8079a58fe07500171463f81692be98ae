@@ -1,0 +1,48 @@
+package com.ouya.zr;
+
+import org.junit.Test;
+
+public class zz {
+	public static void main(String[] args) {
+		zz order1 = new zz(001, "mary");
+		zz order2 = new zz(002, "lucy");
+		System.out.println(order1.equals(order2));
+	}
+	@Test
+	public void test(){
+		zz order1 = new zz(001, "mary");
+		zz order2 = new zz(002, "lucy");
+		System.out.println(order1.equals(order2));
+
+	}
+	private int orderId;
+	private String orderName;
+	
+	public zz(int orderId, String orderName) {
+		super();
+		this.orderId = orderId;
+		this.orderName = orderName;
+	}
+	
+	
+	@Override
+	public boolean equals(Object arg0) {
+		return true;
+	}
+
+
+	public int getOrderId() {
+		return orderId;
+	}
+	public void setOrderId(int orderId) {
+		this.orderId = orderId;
+	}
+	public String getOrderName() {
+		return orderName;
+	}
+	public void setOrderName(String orderName) {
+		this.orderName = orderName;
+	}
+	
+
+}

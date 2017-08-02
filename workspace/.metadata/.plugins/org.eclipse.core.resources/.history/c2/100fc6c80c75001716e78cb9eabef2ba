@@ -1,0 +1,31 @@
+package com.ouya.zr;
+
+public class Circle extends GeometricObject{
+
+	private double radius;
+	
+	
+
+	public double getRadius() {
+		return radius;
+	}
+
+	public void setRadius(double radius) {
+		this.radius = radius;
+	}
+	
+	public double findArea(){
+		return 0;
+	}
+	
+	public boolean equals(Circle c){
+		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Circle [radius=" + radius + "]";
+	}
+	
+	
+}

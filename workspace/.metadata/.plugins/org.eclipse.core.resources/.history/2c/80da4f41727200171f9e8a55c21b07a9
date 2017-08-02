@@ -1,0 +1,50 @@
+package com.ouya.zr;
+
+public class ExtendsTest {
+
+	public static void main(String[] args) {
+
+		Student s = new Student();
+		s.setName("小刘");
+		s.setAge(12);
+		s.setSchool("清华");
+		System.out.println("姓名："+s.getName()+", 年龄："+s.getAge()+"， 想上的学校：");
+	}
+
+}
+
+class Person{
+	
+	private String name;
+	private int age;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	
+}
+
+class Student extends Person{
+	
+	public String School;
+
+	public String getSchool() {
+		return School;
+	}
+
+	public void setSchool(String school) {
+		School = school;
+	}
+	
+	
+	
+}

@@ -1,0 +1,31 @@
+package com.ouya.zr;
+
+public class Order {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	int  orderId;
+	String OrderName;
+	
+	public Order(){
+		
+	}
+	public int getOrderId() {
+		return orderId;
+	}
+	public void setOrderId(int orderId) {
+		this.orderId = orderId;
+	}
+	public String getOrderName() {
+		return OrderName;
+	}
+	public void setOrderName(String orderName) {
+		OrderName = orderName;
+	}
+	
+	
+	
+	
+}

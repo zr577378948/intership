@@ -1,0 +1,23 @@
+package com.ouya.zr;
+
+public class FinalTest1 {
+
+}
+
+class A1{
+	String name;
+	public final void pr(){
+		System.out.println("123");
+	}
+}
+class B1 extends A1{
+	
+	//父类方法有final，子类不能重写
+	/*public final void pr(){
+		System.out.println("321");
+	}*/
+	
+	public void s(){
+		System.out.println(name);
+	}
+}

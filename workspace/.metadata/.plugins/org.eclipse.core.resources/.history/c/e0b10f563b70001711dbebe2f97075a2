@@ -1,0 +1,24 @@
+package com.ouya.zr;
+/**
+ * 面向对象
+ * 人在黑板上画画
+ * 对象：人
+ * 方法：画画
+ * 列车司机紧急刹车
+ * 对象：列车司机
+ * 方法：刹车
+ * 售货员统计收获小票的方法
+ * 对象：售货员
+ * 方法：统计收货小票
+ * 
+ * @author Administrator
+ *
+ */
+public class Oop {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

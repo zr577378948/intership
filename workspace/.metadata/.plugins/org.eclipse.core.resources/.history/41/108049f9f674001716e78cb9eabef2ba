@@ -1,0 +1,10 @@
+package com.ouya.zr;
+
+public class TestEquals1 {
+
+	public static void main(String[] args) {
+		String str1 = new String("AA");
+		String str2 = new String("AA");
+		System.out.println(str1.equals(str2));/8/flase
+	}
+}

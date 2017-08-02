@@ -1,0 +1,10 @@
+package com.ouya.zr;
+/**
+ * 抽象：本身就不存在，没有对应的实例
+ * @author Administrator
+ *
+ */
+public class AbstractTest {
+
+	
+}

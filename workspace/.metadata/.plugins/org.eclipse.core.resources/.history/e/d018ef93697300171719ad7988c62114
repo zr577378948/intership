@@ -1,0 +1,39 @@
+package com.ouya.zr;
+/**
+ * 修饰类、属性、方法
+ * 1.修饰类不能被继承
+ * 例如:String类、StringBuffer类、System类
+ * 2.final修饰方法为最终的、不能被重写。如：Object类的getClass() 
+ * 3.final修饰属性，此属性就是一个常量。习惯上，常量用大写字符表示。
+ * @author Administrator
+ *
+ */
+public class TestFinal {
+	public static void main(String[] args) {
+		C c = new C();
+		System.out.println(c.getClass());
+	}
+
+}
+
+//常量
+/*class D{
+	fianl int I  ;
+}*/
+final class A11 {
+	
+}
+
+class C{ 
+	public final  void method1(){
+		System.out.println("methode1");
+	}
+}
+
+
+//不能被重写
+/*class D extends C{
+	public void method1(){
+		System.out.println("methode1...");//...表示重写
+	}
+}*/

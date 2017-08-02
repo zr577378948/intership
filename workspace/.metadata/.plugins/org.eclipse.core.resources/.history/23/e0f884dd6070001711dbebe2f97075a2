@@ -1,0 +1,14 @@
+package com.ouya.zr;
+/**
+ * 求圆的面积
+ * @author Administrator
+ *
+ */
+public class area {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

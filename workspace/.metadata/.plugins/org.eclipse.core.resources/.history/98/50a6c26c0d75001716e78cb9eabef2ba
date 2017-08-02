@@ -1,0 +1,15 @@
+package com.ouya.zr;
+
+public class GeometricObject{
+	protected String color;
+	protected double weight;
+	
+	
+	public GeometricObject(String color, double weight) {
+		super();
+		this.color = color;
+		this.weight = weight;
+	}
+
+}
+

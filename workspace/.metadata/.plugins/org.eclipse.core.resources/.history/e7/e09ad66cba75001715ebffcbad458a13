@@ -1,0 +1,22 @@
+package com.ouya.zr;
+//¿¡∫∫ Ω
+public class TestSingleton1 {
+
+}
+
+class Singleton1{
+	
+	private Singleton1(){
+		
+	}
+	
+	private static Singleton1 instance = null;
+
+	public static Singleton1 getInstance() {
+		if(instance==null){
+			instance
+		}
+	}
+
+	
+}

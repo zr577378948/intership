@@ -1,0 +1,20 @@
+package com.ouya.zr;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+class Girl{
+	private String name;
+	
+	
+}
+
+class Boy{
+	
+}
+

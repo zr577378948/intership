@@ -1,0 +1,10 @@
+package com.ouya.zr;
+
+public class xuanze {
+
+	public static void main(String[] args) {
+		
+		int array1[] = new int[]{2,16,45,79,-85,4}
+	}
+
+}

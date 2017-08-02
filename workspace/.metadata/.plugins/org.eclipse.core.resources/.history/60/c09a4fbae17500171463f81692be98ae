@@ -1,0 +1,9 @@
+package com.ouya.zr.Thread;
+/**
+ * 创建一个子线程，完成1-100之间的
+ * @author Administrator
+ *
+ */
+public class TestThread {
+
+}

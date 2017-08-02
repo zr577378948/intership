@@ -1,0 +1,15 @@
+package com.ouya.zr.io;
+/**
+ * io流是干什么的？
+ * 处理设备之间的数据传输，Java中对数据操作都是通过流的方式，Java操作的流的对象都在io包中。
+ * 输入流、输出流相对于内存设备而言
+ * 
+ * @author Administrator
+ *
+ */
+public class TestIO {
+
+	public static void main(String[] args) {
+		
+	}
+}

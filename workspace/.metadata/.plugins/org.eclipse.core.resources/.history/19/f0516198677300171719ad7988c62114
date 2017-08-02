@@ -1,0 +1,10 @@
+package com.ouya.zr;
+/**
+ * 修饰类、属性、方法
+ * 修饰类不能被继承
+ * @author Administrator
+ *
+ */
+public class TestFinal {
+
+}

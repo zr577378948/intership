@@ -1,0 +1,13 @@
+package com.ouya.zr;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+	}
+}
+
+class GeometricObject{
+	protected String color;
+	protected double weigt;
+}

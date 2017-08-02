@@ -1,0 +1,16 @@
+package com.ouya.zr;
+
+public class TestMyDate {
+
+	public static void main(String[] args) {
+		MyDate m1 = new MyDate()
+	}
+}
+
+class MyDate{
+	
+	@Override
+	public boolean equals(Object obj) {
+		return super.equals(obj);
+	}
+}

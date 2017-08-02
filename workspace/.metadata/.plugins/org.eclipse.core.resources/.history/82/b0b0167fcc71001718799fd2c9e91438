@@ -1,0 +1,18 @@
+package com.ouya.zr;
+
+public class StaticTest {
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class St{
+	static int age;
+	String name;
+	
+	public void  info(){
+		
+		System.out.println("age" + age);
+	}
+}

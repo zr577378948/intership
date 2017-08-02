@@ -1,0 +1,37 @@
+package com.ouya.zr;
+/**
+ * 可变个数的参数
+ * @author Administrator
+ *
+ */
+public class NiMing {
+
+	public static void main(String[] args) {
+
+		NiMing nm = new NiMing();
+		nm.hello(5);
+		nm.hello("haha","jajaja","fgdf");
+		nm.hello();
+		
+	}
+
+	public void hello(String str){
+		System.out.println(str);
+		
+	}
+	
+	public void hello(String ...str){
+		for (int i = 0; i < str.length; i++) {
+			System.out.println(str);
+		}
+		
+		
+	}
+	
+	public void hello(int a){
+		System.out.println(a);
+		
+	}
+}
+
+

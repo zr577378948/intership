@@ -1,0 +1,13 @@
+package com.ouya.zr;
+
+public class gouzao {
+
+}
+class Person{
+	String name ;
+	int age ;
+	
+	public void info(){
+		System.out.println("name:"+ name +",age:"+age);
+	}
+}

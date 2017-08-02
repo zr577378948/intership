@@ -1,0 +1,16 @@
+package com.ouya.zr;
+/**
+ * final:最终，也称为完结器
+ * 
+ */
+public class FinalTest {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+final class A{
+	
+}

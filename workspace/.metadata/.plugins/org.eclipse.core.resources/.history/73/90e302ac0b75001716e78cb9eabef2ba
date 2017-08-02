@@ -1,0 +1,33 @@
+package com.ouya.zr;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+	}
+}
+
+class GeometricObject{
+	protected String color;
+	protected double weight;
+	/*public GeometricObject(String color, double weight) {
+		this.color = color;
+		this.weight = weight;
+	}*/
+	
+	
+}
+
+class Circle extends GeometricObject{
+	private double radius;
+	
+	public Circle(){
+		this.color = "white";
+		
+	}
+	public Circle(String color, double weight,double radius){
+		this.color = color;
+		this.weight = weight;
+		this.radius = radius;
+	}
+}

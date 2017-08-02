@@ -1,0 +1,5 @@
+package com.ouya.zr.bank;
+
+public class User {
+
+}

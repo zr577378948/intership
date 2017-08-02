@@ -1,0 +1,15 @@
+package com.ouya.zr.Thread;
+
+import org.junit.Test;
+
+public class TestString {
+
+	/**
+	 * 字符串与字节数组的转换
+	 */
+	@Test
+	public void test(){
+		
+	}
+}
+

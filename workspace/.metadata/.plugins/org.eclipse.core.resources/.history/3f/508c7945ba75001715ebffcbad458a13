@@ -1,0 +1,14 @@
+package com.ouya.zr;
+//¿¡∫∫ Ω
+public class TestSingleton1 {
+
+}
+
+class Singleton1{
+	
+	private Singleton1(){
+		
+	}
+	
+	
+}

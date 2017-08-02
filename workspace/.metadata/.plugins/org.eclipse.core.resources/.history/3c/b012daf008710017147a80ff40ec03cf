@@ -1,0 +1,15 @@
+package com.ouya.zr;
+
+public class Test3 {
+
+	int i;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public void show(Test3 t){
+		
+	}
+
+}

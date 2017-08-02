@@ -1,0 +1,13 @@
+package com.ouya.zr.io;
+/**
+ * io流是干什么的？
+ * 处理设备之间的数据传输的。
+ * @author Administrator
+ *
+ */
+public class TestIO {
+
+	public static void main(String[] args) {
+		
+	}
+}

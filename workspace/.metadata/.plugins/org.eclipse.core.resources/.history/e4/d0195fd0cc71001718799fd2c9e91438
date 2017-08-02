@@ -1,0 +1,24 @@
+package com.ouya.zr;
+
+public class StaticTest {
+	public static void main(String[] args) {
+		
+		St s = new St();
+		s.age = 4;
+		s.info();
+		//可以用类名直接调用
+		St.age = 5;
+		s.info();
+	}
+
+}
+
+class St{
+	static int age;
+	String name;
+	
+	public void  info(){
+		
+		System.out.println("name:"+name+",age:" + age);
+	}
+}

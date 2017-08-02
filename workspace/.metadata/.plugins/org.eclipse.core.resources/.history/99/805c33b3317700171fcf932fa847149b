@@ -1,0 +1,17 @@
+package com.ouya.zr.io;
+
+import java.io.File;
+
+/**
+ * 创建目录（文件夹）
+ * mkdir创建抽象类的制定目录
+ * @author Administrator
+ *
+ */
+public class TestDemo2 {
+
+	public static void main(String[] args) {
+		
+		File f = new File("e:"+File.separator+)
+	}
+}

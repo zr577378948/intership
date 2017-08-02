@@ -1,0 +1,9 @@
+package com.ouya.zr;
+
+public class TestTemplate {
+
+}
+
+abstract class Template{
+	abstract void code();
+}

@@ -1,0 +1,9 @@
+package com.ouya.zr;
+//接口跟具体的类指尖存在多态性
+public class TestInterface {
+
+}
+
+interface Runner{
+	spublic adstract void run();
+}

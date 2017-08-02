@@ -1,0 +1,49 @@
+package com.ouya.zr;
+
+/**
+ * 编写两个类，TriAngle和TestTriAngle，其中TriAngle中声明私有的底边长base和高height，
+ * 同时声明公共方法访问私有变量；另一个类中使用这些公共方法，计算三角形的面积。
+ * @author Administrator
+ *
+ */
+public class TestTriAngle {
+
+	public static void main(String[] args) {
+		//TriAngle t = new TriAngle(3.0,6.0);
+		//System.out.println(t.area());
+		TriAngle t = new TriAngle();
+		t.setBase(2.0);
+		t.getHeight(2.0);
+		
+	}
+
+}
+
+class TriAngle{
+	
+	private double base;
+	private double height;
+	
+	//创建构造器
+	/*public TriAngle(double base,double height){
+		this.base = base;
+		this.height = height;
+	}*/
+	public double getBase() {
+		return base;
+	}
+	public void setBase(double base) {
+		this.base = base;
+	}
+	public double getHeight() {
+		return height;
+	}
+	public void setHeight(double height) {
+		this.height = height;
+	}
+	
+	public double area(){
+		return 0.5*this.base*this.height;
+	}
+}
+

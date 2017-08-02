@@ -1,0 +1,17 @@
+package com.ouya.zr.Thread;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class TestSimpleDateFormat {
+
+	public static void main(String[] args) {
+//		∏Ò ΩªØ
+		SimpleDateFormat s = new SimpleDateFormat();
+		String date = s.format(new Date());
+		System.out.println(date);
+		
+		SimpleDateFormat sd = new SimpleDateFormat("EEE,d MMM yyy HH:mm:ss Z");
+		String date1 = s.format(new Date());
+	}
+}

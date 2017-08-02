@@ -1,0 +1,24 @@
+package com.ouya.zr;
+
+public class TestEquals {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 10;
+		System.out.println(a==b);
+		char c = 10;
+		System.out.println(a==c);
+		float f = 10.0f;
+		System.out.println(a==f);
+		int k = 65;
+		char g = 'A';
+		System.out.println(k==g);
+		
+		Object o = new Object();
+		Object o1 = new Object();
+		System.out.println(o);
+		System.out.println(o1);
+		System.out.println(o==o1);
+		
+		
+	}
+}

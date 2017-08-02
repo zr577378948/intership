@@ -1,0 +1,13 @@
+package com.ouya.zr;
+
+public class Test {
+
+}
+
+class Info{
+	private String name;
+	Private double xinshu;
+	
+	
+	
+}

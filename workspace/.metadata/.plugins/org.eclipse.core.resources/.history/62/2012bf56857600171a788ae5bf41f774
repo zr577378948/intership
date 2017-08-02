@@ -1,0 +1,8 @@
+package com.ouya.zr.Thread;
+
+public class TestRandom {
+
+	public static void main(String[] args) {
+		1000*(Math.random());
+	}
+}

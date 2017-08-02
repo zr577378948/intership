@@ -1,0 +1,14 @@
+package com.ouya.zr;
+
+import org.junit.Test;
+
+public class TestWrapper {
+	//基本数据类型与包装类之间的转换
+	@Test
+	public void test(){
+		
+		int i = 10;
+		Integer i1 = new Integer(i); 
+	}
+
+}

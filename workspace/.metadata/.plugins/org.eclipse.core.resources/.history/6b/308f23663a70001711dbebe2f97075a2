@@ -1,0 +1,16 @@
+package com.ouya.zr;
+/**
+ * 面向对象
+ * 人在黑板上画画
+ * 对象：人
+ * @author Administrator
+ *
+ */
+public class Oop {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

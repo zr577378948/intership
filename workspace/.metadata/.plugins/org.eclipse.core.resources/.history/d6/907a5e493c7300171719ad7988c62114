@@ -1,0 +1,54 @@
+package com.ouya.zr;
+/**
+ * 定义：某一种实物存在多种形态
+ * @author Administrator
+ *
+ */
+public class Demo {
+	public static void main(String[] args) {
+		Cat c = new Cat();
+		don(c);
+		Animal d = new Dog();
+		don(d);
+		//d.look();
+		//向上转型，把子类转化为父类，子类自带的属性方法会被隐藏
+//		don(new Dog());
+		Dog e = (Dog)Dog d;
+	}
+	
+	public static void don(Animal a){
+		a.eat();
+		
+	}
+
+}
+
+abstract class Animal{
+	abstract void eat();
+}
+
+class Dog extends Animal{
+
+	@Override
+	void eat() {
+		System.out.println("吃好吃的");
+	}
+	void look(){
+		System.out.println("看家");
+	}
+	
+	
+}
+
+class Cat extends Animal{
+
+	@Override
+	void eat() {
+		System.out.println("吃老鼠");
+	}
+	void work(){
+		System.out.println("看家");
+	}
+	
+	
+}

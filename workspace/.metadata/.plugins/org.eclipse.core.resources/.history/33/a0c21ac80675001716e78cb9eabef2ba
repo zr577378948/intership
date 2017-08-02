@@ -1,0 +1,19 @@
+package com.ouya.zr;
+
+public class TestMyDate {
+
+	public static void main(String[] args) {
+		
+	}
+}
+
+class MyDate{
+	
+	
+	
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		return super.equals(obj);
+	}
+}

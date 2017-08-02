@@ -1,0 +1,13 @@
+package com.ouya.zr.io;
+
+/**
+ * 
+ * @author Administrator
+ *
+ */
+public class TestIO2 {
+
+	public static void main(String[] args) {
+		
+	}
+}

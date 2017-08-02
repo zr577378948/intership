@@ -1,0 +1,14 @@
+package com.ouya.zr.Thread;
+
+public class TestRandom {
+
+	public static void main(String[] args) {
+		for(int i = 0;i<10;i++){
+			int a = (int) (100*(Math.random()));
+			System.out.print(a+" ");
+		}
+		
+		
+		
+	}
+}

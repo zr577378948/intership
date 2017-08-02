@@ -1,0 +1,10 @@
+package com.ouya.zr;
+
+public class TestWrapper {
+	
+	@Test
+	public void test(){
+		
+	}
+
+}

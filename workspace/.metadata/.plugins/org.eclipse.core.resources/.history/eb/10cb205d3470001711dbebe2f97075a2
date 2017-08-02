@@ -1,0 +1,11 @@
+package com.ouya.zr;
+
+public class yichang {
+
+	public static void main(String[] args) {
+
+		int a[] = new int[4];
+		System.err.println(a[]);
+	}
+
+}

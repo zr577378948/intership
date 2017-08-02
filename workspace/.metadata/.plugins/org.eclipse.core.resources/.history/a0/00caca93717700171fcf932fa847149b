@@ -1,0 +1,14 @@
+package com.ouya.zr.file;
+
+import org.junit.Test;
+
+public class TestCopy {
+
+	@Test
+	public void copy(String src,String dest){
+		
+	}
+	
+}
+
+

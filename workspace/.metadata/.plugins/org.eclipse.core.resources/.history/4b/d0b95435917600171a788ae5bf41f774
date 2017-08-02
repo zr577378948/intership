@@ -1,0 +1,12 @@
+package com.ouya.zr.Thread;
+/**
+ * 异常：
+ * @author Administrator
+ *java.lang.ArithmeticException算数逻辑异常
+ */
+public class TestError {
+
+	public static void main(String[] args) {
+		System.out.println(努力l);
+	}
+}

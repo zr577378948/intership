@@ -1,0 +1,109 @@
+package com.ouya.zr.bank;
+
+import java.util.Scanner;
+
+public class Bank {
+
+	public static void main(String[] args) {
+		
+		User[] users = new User[3];
+//		存放用户
+		users[0] = new User(1001,1235,500.00);
+		users[1] = new User(1002,1236,700.00);
+		users[2] = new User(1003,1237,900.00);
+		
+//		输入
+		while(true){
+		Scanner input = new Scanner(System.in);
+		System.out.println("欢迎进入自助取款系统");
+		System.out.println("请输入账号：");
+		int id = input.nextInt();
+		System.out.println("请输入密码：");
+		int pwd = input.nextInt();
+		
+		User user = null;
+		for(int i = 0;i < users.length;i++){
+			user = users[i];
+			if(user.getId() == id && user.getPassword() == pwd){
+				break;
+			}else{
+				user = null;
+			}
+		}
+		boolean f = true;
+		if(user!=null){
+			System.out.println("登录成功！！！");
+			do {
+				System.out.println("请选择你的操作：");
+				System.out.println("1.存钱");
+				System.out.println("2.取钱");
+				System.out.println("3.查询余额");
+				System.out.println("4.转账");
+				System.out.println("0.退出系统");
+				
+				int i = input.nextInt();
+				switch (i) {
+				case 0:
+					//退出系统
+					f = false;
+					break;
+				case 1:
+					//存款操作
+					System.out.println("请输入存款金额：");
+					double money = input.nextDouble();
+					user.setMoney(user.getMoney()+money);
+					System.out.println("当前账户余额："+user.getMoney());
+					break;
+					
+				case 2:
+					//取款操作
+					while(true){
+					System.out.println("请输入取款金额：");
+					double money1 = input.nextDouble();
+					if(user.getMoney()-money1>=0){
+					user.setMoney(user.getMoney()-money1);}
+					else{
+						System.out.println("余额不足！请重新输入：");
+					}
+					System.out.println("当前账户余额："+user.getMoney());
+					break;
+					}
+
+				case 3:
+					//查询操作
+					System.out.println("当前账户余额："+user.getMoney());
+					break;
+					
+				case 4:
+					//转账操作
+					while(true){
+					System.out.println("请输入转入账户：");
+					int id1 = input.nextInt();
+				
+					for(int i1 = 0;i1 < users.length;i1++){
+						user = users[i1];
+						if(user.getId()==id1){
+							System.out.println("请输入转账金额：");
+							double money2 = input.nextDouble();
+							if(user.getMoney()-money2>=0){
+								user.setMoney(user.getMoney()-money2);}
+								else{
+									System.out.println("余额不足！请重新输入：");
+								}System.out.println("当前账户余额："+user.getMoney());
+							user.setMoney(user.getMoney()+money2);
+						}else{
+							user = null;
+						}
+					}
+					
+					break;}
+				default:
+					break;
+				}
+			} while (f);
+		}else{
+			System.out.println("登录失败！！！");
+		}
+		}
+	}
+}

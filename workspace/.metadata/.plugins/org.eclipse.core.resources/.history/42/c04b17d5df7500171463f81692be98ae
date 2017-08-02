@@ -1,0 +1,50 @@
+package com.ouya.zr;
+
+import org.junit.Test;
+
+public class zz {
+	@Test
+	public void test(){
+		zz order1 = new zz(001, "mary");
+		zz order2 = new zz(002, "lucy");
+		System.out.println(order1.equals(order2));
+
+	}
+	private int orderId;
+	private String orderName;
+	
+	public zz(int orderId, String orderName) {
+		super();
+		this.orderId = orderId;
+		this.orderName = orderName;
+	}
+	
+	
+	@Override
+	public boolean equals(Object obj){
+		if(this == obj){
+		return true;}
+		else if(obj instanceof Order){
+			Order o1 = (Order)obj;
+			return this.orderId == o1.orderId && this.orderName.equals(o1.orderName);
+		}else{
+			return false;
+		}
+		
+	}
+
+	public int getOrderId() {
+		return orderId;
+	}
+	public void setOrderId(int orderId) {
+		this.orderId = orderId;
+	}
+	public String getOrderName() {
+		return orderName;
+	}
+	public void setOrderName(String orderName) {
+		this.orderName = orderName;
+	}
+	
+
+}

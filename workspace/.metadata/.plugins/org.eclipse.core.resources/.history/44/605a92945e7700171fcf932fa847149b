@@ -1,0 +1,12 @@
+package com.ouya.zr.file;
+
+import org.junit.Test;
+
+public class TestFileInputOutputStream {
+
+	//从硬盘存在的一个文件中，读取其内容到程序中,使用FileInputSteam
+	@Test
+	public void testFileInputStream1(){
+		
+	}
+}

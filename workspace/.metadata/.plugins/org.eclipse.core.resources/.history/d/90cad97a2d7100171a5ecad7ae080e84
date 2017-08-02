@@ -1,0 +1,11 @@
+package com.ouya.zr.fz;
+
+public class TestAnimal {
+
+	String name;
+	int legs;
+	
+	public void eat(){
+		
+	}
+}

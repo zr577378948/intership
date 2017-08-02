@@ -1,0 +1,6 @@
+package com.ouya.zr.file;
+
+public class TestFileInputOutputStream {
+
+	//从硬盘存在的一个文件中，读取其内容到程序中
+}

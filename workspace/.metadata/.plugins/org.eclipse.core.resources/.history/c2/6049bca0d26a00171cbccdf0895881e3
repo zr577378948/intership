@@ -1,0 +1,11 @@
+package com.ouya.zr;
+
+public class yunsuanfu {
+
+	public static void main(String[] args) {
+
+		int a = 32;
+		
+	}
+
+}

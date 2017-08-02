@@ -1,0 +1,16 @@
+package com.ouya.zr;
+/**
+ * 数据类型转换:从小到大char,byte,short=>int=>long=>float=>double
+ * char,byte,short运算时,自动转化为int类型
+ * @author Administrator
+ *
+ */
+public class zhuanhuan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

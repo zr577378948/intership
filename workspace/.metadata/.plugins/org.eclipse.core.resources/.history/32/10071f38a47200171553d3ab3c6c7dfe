@@ -1,0 +1,14 @@
+package com.ouya.zr;
+
+public class FinalTest1 {
+
+}
+
+class A1{
+	public final void pr(){
+		System.out.println("123");
+	}
+}
+class B1 extends A1{
+	System.out.println("321");
+}

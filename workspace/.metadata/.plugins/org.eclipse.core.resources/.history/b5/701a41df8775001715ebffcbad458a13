@@ -1,0 +1,16 @@
+package com.ouya.zr;
+
+public class TestJunit {
+
+	public static void main(String[] args) {
+
+		String a = "AA";
+		System.out.println(a);
+	}
+	
+	@Test
+	public void test(){
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.ouya.zr;
+/**
+ * 编写教师类和学生类，并通过测试类创建对象进行测试
+ * 学生类
+ * 属性：姓名、年龄、参加的课程、兴趣
+ * 方法：显示学生的个人信息
+ * 教师类
+ * 属性：姓名、专业、教授的课程、教龄
+ * 方法：显示教师的个人信息
+ * @author Administrator
+ *
+ */
+public class Test {
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	
+
+}

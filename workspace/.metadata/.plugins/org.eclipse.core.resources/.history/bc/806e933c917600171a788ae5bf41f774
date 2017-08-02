@@ -1,0 +1,12 @@
+package com.ouya.zr.Thread;
+/**
+ * Òì³££º
+ * @author Administrator
+ *java.lang.ArithmeticExceptionËãÊıÂß¼­Òì³£
+ */
+public class TestError {
+
+	public static void main(String[] args) {
+		System.out.println(null);
+	}
+}

@@ -1,0 +1,12 @@
+package com.ouya.zr.Thread;
+
+import org.junit.Test;
+
+public class TestString {
+
+	@Test
+	public void test(){
+		
+	}
+}
+
