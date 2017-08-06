@@ -1,0 +1,15 @@
+package com.ouya.zr;
+
+public class Fun {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	/*public static int getName(A a){
+		return a;
+	}*/
+	public static <A>A getName(A a){
+		return a ;
+	}
+}

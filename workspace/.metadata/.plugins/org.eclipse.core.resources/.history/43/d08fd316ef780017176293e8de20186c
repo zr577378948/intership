@@ -1,0 +1,33 @@
+package com.ouya.zr.collection;
+
+import java.util.LinkedList;
+
+/*
+ * 		ArrayList                              Vector
+ * 当愿所有存储达到指定容量时，自动增长为原容量的1/2   党员使用存储达到指定容量时，原容量自动增长一倍
+ * 非线程安全且性能更高             线程安全但性能较低
+ */
+public class TestLinked {
+
+	public static void main(String[] args) {
+		Student stu = new Student("zhangsan",23,"xian");
+		Student stu1 = new Student("lisi",23,"xian");
+		Student stu2 = new Student("wangwu",23,"xian");
+		
+		LinkedList<Student>list = new LinkedList<Student>();
+		list.add(stu);
+		list.add(stu1);
+		list.add(stu2);
+		list.add(stu2);
+		list.addFirst(stu2);
+		
+		list.remove(stu2);
+		
+		list.set(1, stu);
+		System.out.println(list);
+		for(int i=0;i<list.size();i++){
+			System.out.println(list.get(i));
+		}
+		
+	}
+}

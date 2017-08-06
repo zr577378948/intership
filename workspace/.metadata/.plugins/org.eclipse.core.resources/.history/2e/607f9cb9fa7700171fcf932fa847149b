@@ -1,0 +1,10 @@
+package com.zr.ouya;
+/*
+ * 字符流，字节流  输入输出操作
+ * 
+ * 在字节里的操作：OutputStream输出操作     InputStream输入操作
+ * 
+ */
+public class Stream {
+
+}

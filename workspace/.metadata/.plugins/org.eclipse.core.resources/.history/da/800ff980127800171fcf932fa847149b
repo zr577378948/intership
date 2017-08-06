@@ -1,0 +1,14 @@
+package TestOutPutStream;
+
+import java.io.File;
+
+/*
+ * 字节输出流
+ * InputStream抽象类，也靠子类实例化
+ */
+public class TestInputStream {
+
+	public static void main(String[] args) {
+		File f = new File("e:"+File.separator+)
+	}
+}

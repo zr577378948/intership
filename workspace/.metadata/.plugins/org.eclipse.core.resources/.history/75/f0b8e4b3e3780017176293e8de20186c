@@ -1,0 +1,8 @@
+package com.ouya.zr.collection;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Student stu = new Student("zhangsan",23,"xian");
+	}
+}

@@ -1,0 +1,15 @@
+package com.ouya.zr.collection;
+
+
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Student stu = new Student("zhangsan",23,"xian");
+		Student stu1 = new Student("lisi",23,"xian");
+		Student stu2 = new Student("wangwu",23,"xian");
+		
+		 List st = new ArrayList();
+		 stu.add(stu);
+	}
+}

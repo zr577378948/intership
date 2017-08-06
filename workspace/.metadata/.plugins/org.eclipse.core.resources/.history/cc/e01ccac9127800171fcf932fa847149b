@@ -1,0 +1,23 @@
+package TestOutPutStream;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+
+/*
+ * 字节输出流
+ * InputStream抽象类，也靠子类实例化
+ */
+public class TestInputStream {
+
+	public static void main(String[] args) {
+		File f = new File("e:"+File.separator+"hello.txt");
+		try {
+			InputStream iN = new FileInputStream(f);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

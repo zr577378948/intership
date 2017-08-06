@@ -1,0 +1,12 @@
+package com.ouya.zr.file;
+
+import org.junit.Test;
+
+public class TestFileReaderWriter {
+	
+	@Test
+	public void testFilerReader(){
+		File file = new File("");
+	}
+
+}

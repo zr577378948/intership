@@ -1,0 +1,10 @@
+package TestOutPutStream;
+/*
+ * ×Ö½ÚÊä³öÁ÷
+ */
+public class TestInputStream {
+
+	public static void main(String[] args) {
+		
+	}
+}

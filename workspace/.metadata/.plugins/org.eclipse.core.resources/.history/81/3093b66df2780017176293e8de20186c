@@ -1,0 +1,39 @@
+package com.ouya.zr.collection;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+/*
+ * set接口：存储顺序无序，不重复
+ */
+public class TestSet {
+
+	public static void main(String[] args) {
+		String str = "你好";
+		String str1 = "你好吗？";
+		String str2 = "很好";
+		System.out.println(str==str1);//比值
+		
+		String Str = new String("哈哈");
+		String Str1 = new String("你好吗？");
+		String Str2 = new String("谢谢");
+		System.out.println(Str==Str1);//比地址
+		
+		Set set = new HashSet<>();
+		set.add(str);
+		set.add(str1);
+		set.add(str2);
+		
+		set.add(Str);
+		set.add(Str1);
+		set.add(Str2);
+		System.out.println(set);
+		
+		set.remove(Str1);
+		
+		//使用最高的Iterator方法，调用集合中的迭代器方法，是为了遍历无序对象；
+		
+		Iterator i = set.iterator();
+	}
+}

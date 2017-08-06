@@ -1,0 +1,9 @@
+package com.ouya.zr.file;
+
+public class TestFileReaderWriter {
+	@Test
+	public void testFilerReader(){
+		
+	}
+
+}

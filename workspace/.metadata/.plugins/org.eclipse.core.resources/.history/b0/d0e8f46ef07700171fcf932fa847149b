@@ -1,0 +1,7 @@
+package com.zr.ouya;
+/*
+ * TestRandomAccessFile(File file,String mode)
+ */
+public class TestRandomAccessFile {
+
+}

@@ -1,0 +1,14 @@
+package com.ouya.zr;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Book book = new Book("双世宠妃",100);
+		Book book1 = new Book("老夫子",100);
+		
+		Book []books = {book,book1};//商店把所有的书都在放了
+		Store<Book> bookshop = new Store<Book>();
+		bookshop.setRoom(books);
+		Shop s = new Shop();
+	}
+}

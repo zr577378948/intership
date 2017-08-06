@@ -1,0 +1,29 @@
+package TestOutPutStream;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+/*
+ * 字节输出流
+ * InputStream抽象类，也靠子类实例化
+ */
+public class TestInputStream {
+
+	public static void main(String[] args) {
+		File f = new File("e:"+File.separator+"hello.txt");
+		InputStream in = null;
+		try {
+			in = new FileInputStream(f);
+			
+			byte []b = new byte[1024];
+			int len;
+			while((len=in.read(b))!=-1){
+				String str = new String(b);
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}in.close();
+	}
+}

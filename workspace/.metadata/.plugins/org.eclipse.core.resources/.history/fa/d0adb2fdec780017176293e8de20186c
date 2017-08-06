@@ -1,0 +1,17 @@
+package com.ouya.zr.collection;
+
+import java.util.LinkedList;
+
+/*
+ * 
+ */
+public class TestLinked {
+
+	public static void main(String[] args) {
+		Student stu = new Student("zhangsan",23,"xian");
+		Student stu1 = new Student("lisi",23,"xian");
+		Student stu2 = new Student("wangwu",23,"xian");
+		
+		LinkedList<Student>list = new LinkedList<Student>();
+	}
+}

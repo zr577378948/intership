@@ -1,0 +1,17 @@
+package com.zr.ouya;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+import org.junit.Test;
+
+public class TestOtherStream {
+
+	@Test
+	public void testOtherStream(){
+		File f = new File("e:"+File.separator+"hello.txt");
+		
+		FileInputStream fi = new FileInputStream(f);
+		InputStreamReader is = new InoutStreamReader()
+	}
+}

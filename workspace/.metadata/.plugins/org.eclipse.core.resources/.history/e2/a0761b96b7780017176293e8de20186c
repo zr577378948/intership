@@ -1,0 +1,114 @@
+package com.zr.ouya;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.Reader;
+import java.io.Writer;
+
+import org.junit.Test;
+
+public class TestOtherStream {
+	/*
+	 * 标准的输入输出流：
+	 * 标准的输出流：System.out
+	 * 标准的输入流：System.in
+	 * 
+	 * 例如：
+	 * 从键盘输入字符串，要求将读取到的整行字符串转换成大写输出。然后继续进行输入操作，
+	 * 直至当输入“e”或者“exit”时，退出程序
+	 */
+	@Test
+	public void test2(){
+		InputStream in = System.in;
+		InputStreamReader ir = new InputStreamReader(in);
+		BufferedReader br = new BufferedReader(ir);
+		String str;
+		while(true){
+			str = br.read();
+			if(str.equalsIgnoreCase("e")||str.equalsIgnoreCase("exit"));
+		}
+		
+	
+	}
+	
+/*
+ * 编码：字符串--->字节数组(OutputStreamWriter)。
+	解码：字节数组--->字符串(InputStreamReader)。
+ */
+	@Test
+	public void testOtherStream(){
+		
+		//解码
+		BufferedReader br = null;
+		BufferedWriter bw = null;
+		try {
+			File f = new File("e:"+File.separator+"hello12.txt");
+			FileInputStream fi = new FileInputStream(f);
+			InputStreamReader is = new InputStreamReader(fi,"GBK");
+			br = new BufferedReader(is);
+			
+			//编码
+			File f1 = new File("e:"+File.separator+"hello121.txt");
+			FileOutputStream fo = new FileOutputStream(f1);
+			OutputStreamWriter os = new OutputStreamWriter(fo,"GBK");
+			bw = new BufferedWriter(os);
+			
+			String str ;
+			while((str=br.readLine())!=null){
+				bw.write(str);
+				bw.newLine();
+				bw.flush();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			try {
+				bw.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			try {
+				br.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		
+	}
+	
+/*
+ * 字节流转化为字符流
+ */
+@Test
+public void  demo() throws Exception{
+	File f = new File("e:"+File.separator+"hello1.txt");
+	Writer out = new OutputStreamWriter(new FileOutputStream(f));
+	out.write("zcxc|");
+	out.close();
+	
+}
+/*
+ * 字符流转换为字节流
+ */
+@Test
+public void  demo1() throws Exception{
+	File f = new File("e:"+File.separator+"hello1.txt");
+	Reader reader = new InputStreamReader(new FileInputStream(f));
+	char c[] = new char[1024];
+	int len = reader.read(c);
+	System.out.println(new String(c, 0, len));
+	reader.close();
+	
+}
+}
+
+
+
+

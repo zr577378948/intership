@@ -1,0 +1,9 @@
+package com.zr.ouya;
+
+public class TestOtherStream {
+
+	@Test
+	public void testOtherStream(){
+		
+	}
+}

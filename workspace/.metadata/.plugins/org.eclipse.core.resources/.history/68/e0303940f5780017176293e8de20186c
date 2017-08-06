@@ -1,0 +1,35 @@
+package com.ouya.zr.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Student stu = new Student("zhangsan",23,"xian");
+		Student stu1 = new Student("lisi",23,"xian");
+		Student stu2 = new Student("wangwu",23,"xian");
+		//添加
+		 List st = new ArrayList();
+		 st.add(stu);
+		 st.add(stu1);
+		 st.add(stu2);
+		 
+		 System.out.println(st);
+		 
+		 //删除
+		 st.remove(0);//删除下标0
+		 st.remove(stu1);
+		 System.out.println(st);
+		 
+		 //修改
+		 st.set(1, stu2);
+		 System.out.println(st);
+		 
+		 //查询
+		 for (int i = 0; i < st.size(); i++) {
+			 System.out.println(st.get(i));
+			
+		}
+	}
+}

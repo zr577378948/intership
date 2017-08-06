@@ -1,0 +1,8 @@
+package com.ouya.zr.collection;
+/*
+ * 1.存储对象可以考虑1.数组，2.集合
+ */
+public class TestCollection {
+	
+	
+}

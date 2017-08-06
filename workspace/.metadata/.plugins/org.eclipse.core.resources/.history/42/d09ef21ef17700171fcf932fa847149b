@@ -1,0 +1,24 @@
+package com.zr.ouya;
+
+import java.io.File;
+import java.io.RandomAccessFile;
+
+/*
+ * TestRandomAccessFile(File file,String mode)创建从中读取和向其中写入的对随机访问文件流，该文件由File决定
+ * 
+ * 此类的实例支持对随机访问文件的读取和写入
+ * 
+ */
+public class TestRandomAccessFile {
+
+	public static void main(String[] args) {
+		File f = new File("e:"+File.separatorChar+"hello.txt");
+		RandomAccessFile ra = null;
+		try {
+			ra = new RandomAccessFile(f, "rw");
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

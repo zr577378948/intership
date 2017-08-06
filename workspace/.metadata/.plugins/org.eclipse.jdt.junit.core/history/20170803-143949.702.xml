@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestBuffer (1)" project="Day15" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.zr.ouya.buffer.TestBuffer" time="0.0">
+    <testcase name="testBufferedInputStreamOutputStream" classname="com.zr.ouya.buffer.TestBuffer" time="0.0"/>
+  </testsuite>
+</testrun>

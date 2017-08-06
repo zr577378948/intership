@@ -25,7 +25,7 @@ public class TestFileInputOutputStream {
 		try {
 			fs1 = new FileOutputStream(f1);
 			fs = new FileInputStream(f);
-			fs1.write(new String("jkhkajshfjka").getBytes());
+			fs1.write(new String("jkhkajshfjka111").getBytes());
 			
 			byte[] b = new byte[20];
 			int len;

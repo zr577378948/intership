@@ -1,0 +1,11 @@
+package TestOutPutStream;
+/*
+ * 字节输出流
+ * InputStream抽象类，也靠子类输出
+ */
+public class TestInputStream {
+
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,13 @@
+package com.ouya.zr;
+
+public class Fun1 {
+
+	public static void main(String[] args) {
+		add("ÎÒÊÇ×Ö·û´®");
+	}
+
+	private static <D> void add(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestFileReaderWriter" project="Day14" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.ouya.zr.file.TestFileReaderWriter" time="0.0">
+    <testcase name="testFileWrite" classname="com.ouya.zr.file.TestFileReaderWriter" time="0.0"/>
+    <testcase name="testFilerReader" classname="com.ouya.zr.file.TestFileReaderWriter" time="0.0"/>
+  </testsuite>
+</testrun>

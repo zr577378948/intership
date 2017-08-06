@@ -1,0 +1,32 @@
+package com.zr.ouya;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+import org.junit.Test;
+
+public class TestOtherStream {
+
+	@Test
+	public void testOtherStream(){
+		
+		//½âÂë
+		File f = new File("e:"+File.separator+"hello.txt");
+		FileInputStream fi = new FileInputStream(f);
+		InputStreamReader is = new InputStreamReader(fi,"GBK");
+		BufferedReader br = new BufferedReader(is);
+		
+		//±àÂë
+		File f1 = new File("e:"+File.separator+"hello1.txt");
+		FileOutputStream fo = new FileOutputStream(f1);
+		OutputStreamWriter os = new OutputStreamWriter(fo,"GBK");
+		BufferedWriter bw = new BufferedWriter(os);
+		
+		
+	}
+}

@@ -1,0 +1,13 @@
+package com.ouya.zr.collection;
+/*
+ * set接口：存储顺序无序，
+ */
+public class TestSet {
+
+	public static void main(String[] args) {
+		String str = "你好";
+		String str1 = "你好吗？";
+		String str2 = "很好，谢谢";
+		System.out.println(str==str1);
+	}
+}

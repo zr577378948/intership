@@ -1,0 +1,19 @@
+package com.ouya.zr.collection;
+
+import java.util.TreeSet;
+
+/*
+ * TreeSet：用于提供数据内容排序
+ */
+public class TestTreeSet {
+	
+	public static void main(String[] args) {
+		Student stu = new Student("zhangsan",23,"xian");
+		Student stu1 = new Student("lisi",23,"xian");
+		Student stu2 = new Student("wangwu",23,"xian");
+		
+		TreeSet<Student> ts = new TreeSet<Student>();
+		
+	}
+	
+}

@@ -1,0 +1,13 @@
+package com.zr.ouya.buffer;
+
+import org.junit.Test;
+
+public class TestBuffer {
+	
+//使用BUffefedInputStream和BufferOutPutStream实现非文本文件的复制
+	
+	@Test
+	public void testBufferedInputStreamOutputStream(){
+		
+	}
+}

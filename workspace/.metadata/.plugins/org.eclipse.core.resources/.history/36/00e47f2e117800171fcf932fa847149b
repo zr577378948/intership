@@ -1,0 +1,8 @@
+package com.zr.ouya;
+/*
+ * 字节流输出：
+ * 如果你想换行，"\r\n"
+ */
+public class TestOutPutStream {
+
+}

@@ -1,0 +1,11 @@
+package com.ouya.zr;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Book book = new Book("ֻ«Êְ³טות",100);
+		Book book1 = new Book("ְֿ·ע׳׃",100);
+		
+		Book []books = {book,book1};
+	}
+}

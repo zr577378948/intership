@@ -1,0 +1,6 @@
+package com.zr.ouya.buffer;
+
+public class TestBuffer {
+	
+//使用BUffefedInputStream和BufferOutPutStream实现非文本文件的复制
+}

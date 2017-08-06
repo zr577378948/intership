@@ -1,0 +1,6 @@
+package com.ouya.zr;
+
+public class Book {
+private String title;
+private double money;
+}

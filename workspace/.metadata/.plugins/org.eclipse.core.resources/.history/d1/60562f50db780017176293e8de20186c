@@ -1,0 +1,9 @@
+package com.ouya.zr.collection;
+/*
+ * 集合的由来：
+ * 对于由封装特有的数据，对象多了需要储存，
+ * 如果对象数量不确定，就用集合进行储存。
+ */
+public class TestCollection1 {
+
+}

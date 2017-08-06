@@ -1,0 +1,14 @@
+package com.zr.ouya;
+
+import java.io.PrintStream;
+
+import org.junit.Test;
+
+public class TestPrintStream {
+
+	@Test
+	public void testPrintStream(){
+		PrintStream ps = null;//声明打印流对象
+		
+	}
+}

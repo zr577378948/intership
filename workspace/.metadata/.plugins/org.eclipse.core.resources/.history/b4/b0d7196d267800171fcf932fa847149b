@@ -1,0 +1,11 @@
+package com.zr.ouya;
+
+import org.junit.Test;
+
+public class TestPrintStream {
+
+	@Test
+	public void testPrintStream(){
+		
+	}
+}

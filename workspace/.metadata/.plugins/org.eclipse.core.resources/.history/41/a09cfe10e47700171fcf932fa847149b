@@ -1,0 +1,16 @@
+package com.ouya.zr.file;
+
+import java.io.File;
+import java.io.FileReader;
+
+import org.junit.Test;
+
+public class TestFileReaderWriter {
+	
+	@Test
+	public void testFilerReader(){
+		File file = new File("e:"+File.separator+"hello.txt");
+		FileReader f = new FileReader();
+	}
+
+}

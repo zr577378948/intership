@@ -1,0 +1,15 @@
+package com.zr.ouya;
+
+import java.io.File;
+
+/*
+ * 字节流输出：
+ * 如果你想换行，"\r\n"
+ */
+public class TestOutPutStream {
+	public static void main(String[] args) {
+		File f = new File("e:"+File.separatorChar+"hello.txt");
+		
+	}
+	
+}
